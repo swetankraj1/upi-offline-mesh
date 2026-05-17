@@ -1,8 +1,6 @@
 package com.demo.upimesh.model;
 
 import jakarta.persistence.*;
-import jdk.jshell.Snippet;
-
 import java.math.BigDecimal;
 import java.time.Instant;
 

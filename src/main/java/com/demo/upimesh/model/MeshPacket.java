@@ -23,7 +23,7 @@ public class MeshPacket {
     // This is the encrypted payment - nobody can read it except the server. Contains the RSA encrypted AES key + AES
     // encrypted payment details
     @NotBlank
-    private String cipherText;
+    private String ciphertext;
 
     public MeshPacket(){ }
 
@@ -47,6 +47,6 @@ public class MeshPacket {
     // ciphertext getter and setter
     // bridge phone reads this and POSTs to backend
     // decrypts this to get payment details
-    public String getCiphertext() { return cipherText; }
-    public void setCiphertext(String ciphertext) { this.cipherText = ciphertext; }
+    public String getCiphertext() { return ciphertext; }
+    public void setCiphertext(String ciphertext) { this.ciphertext = ciphertext; }
 }
