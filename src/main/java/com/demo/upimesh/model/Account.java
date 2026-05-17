@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 
 import java.math.BigDecimal;
 
-@Entity // @Entity tells Spring "Create a database table for this class
+@Entity // @Entity tells Spring "Create a database table for this class"
 @Table(name = "accounts") //@Table names the actual table in the DB - without this it defaults to the class name
 public class Account {
 
